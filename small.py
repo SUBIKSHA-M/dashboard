@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 st.title("Collections Dashboard")
 uploaded_file1 = st.sidebar.file_uploader("Choose a CSV file 1", type="csv")
 if uploaded_file1:
